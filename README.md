@@ -19,6 +19,7 @@ python3 consumer.py
 ```
 
 You will see the following output:
+
 ![Alt text](images/console.png?raw=true)
 
 Open your browser and enter ```localhost/users/1``` ( *1* is the *user id* to query and consume the API from [JSONPlaceholder](https://jsonplaceholder.typicode.com/ ).
