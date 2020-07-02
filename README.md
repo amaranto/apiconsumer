@@ -5,7 +5,7 @@ This is a simple example about how to consume an API using Python.
 
 *[jsonplaceholder.py](/jsonplaceholder.py)* module consumes the API from [JSONPlaceholder](https://jsonplaceholder.typicode.com/) using httplib and basic OOP implementation.
 
-*[consumer.py](/consumer.py)* is simple consumer and works as a wrapper to consume Json Place Holder API. It opens a socket on port 80 in your local machine and receive HTTP request from your local browser.
+*[consumer.py](/consumer.py)* is a simple consumer and works as a wrapper to consume Json Place Holder API. It opens a socket on port 80 in your local machine and receives HTTP requests from your local browser.
 
 ## Requirements
 
