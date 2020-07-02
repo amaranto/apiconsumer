@@ -114,20 +114,20 @@ class Jsonplaceholder():
 
     def get_connection(self):
         """
-        Return a connection object. It is not used by this example.
+        Return a connection object. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         """                 
         return self.conn    
     
     def set_debug_level(self, l ):
         """
-        Set debug level for HTTPConnection object. It is not used by this example.
+        Set debug level for HTTPConnection object. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         """
         self.conn.set_debuglevel( l )
         return True 
 
     def get_users( self ):
         """
-        Get all the users registered in the API server. It is not used by this example.
+        Get all the users registered in the API server. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         Return a dictionary : { status:<int> , reason: <string>, headers: [<( header, value )>], body: [<dict>] }
         """        
         return self.__get_user__()
@@ -160,14 +160,14 @@ class Jsonplaceholder():
 
     def get_posts( self ):
         """
-        Get all the posts registered in the API server. It is not used by this example.
+        Get all the posts registered in the API server. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         Return a dictionary : { status:<int> , reason: <string>, headers: [<( header, value )>], body: [<dict>] }
         """                
         return self.__get_post__()
 
     def get_post_by_id( self, id ): 
         """
-        Get a post by its id identifier. It is not used by this example.
+        Get a post by its id identifier. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         Return a dictionary : { status:<int> , reason: <string>, headers: [<( header, value )>], body: <dict> }
         """                 
         result = self.__get_post__( params={ "id":id } )
@@ -187,7 +187,7 @@ class Jsonplaceholder():
 
     def get_albums( self ):
         """
-        Get all the albums registered in the API server. It is not used by this example.
+        Get all the albums registered in the API server. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         Return a dictionary : { status:<int> , reason: <string>, headers: [<( header, value )>], body: [<dict>] }
         """             
         return self.__get_album__()
@@ -214,7 +214,7 @@ class Jsonplaceholder():
 
     def get_album_by_title( self, title ):
         """
-        Get an album filtered by album title. It is not used by this example.
+        Get an album filtered by album title. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         Return a dictionary : { status:<int> , reason: <string>, headers: [<( header, value )>], body: <dict> }
         """                
         result = self.__get_album__( params={ "title":title } )    
@@ -227,7 +227,7 @@ class Jsonplaceholder():
 
     def get_photos( self ):
         """
-        Get all the photos available in the API server. It is not used by this example.
+        Get all the photos available in the API server. [ NOT in use by consumer.py. This method was created thinking for future examples ]
         Return a dictionary : { status:<int> , reason: <string>, headers: [<( header, value )>], body: [<dict>] }
         """           
         return self.__get_photo__()
